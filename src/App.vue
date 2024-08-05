@@ -309,128 +309,152 @@ import HelloWorld from "./components/HelloWorld.vue";
       ¡Encuentra la financiación perfecta! Accede a múltiples bancos, compara y
       elige la mejor opción.
     </h2>
-    <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4"
-    >
-      <!-- Image 1 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
+
+    <div className="grid grid-cols-5 grid-rows-6 gap-4">
+      <div className="col-span-2 row-span-2 bg-black">
         <img
-          src="https://via.placeholder.com/400x300"
-          alt="Image 1"
-          class="w-full h-full object-cover"
+          class="w-full h-full"
+          src="https://s3-alpha-sig.figma.com/img/34f8/65ac/1bd136173da00b5ff18ee5c38b53b2a9?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Dc~OPJJKtnRlJpSKwX7RNlmDzD2AVTf07dikFBGmX0sVBHTT0GvaOICNKFxmoV3o1NluRA1kW1k0aptxzMZjC7vllcDN8aaWikVccgCmuNGg3PGGZSeTNIXnk63CR2MeeFi4CwVqotIZ9BpkcDWBxJ5ZwiLRHslUEQTmNJZfYabUPjX2epM7f6ii93cdVyCVFzB-0C~PxnrUpBSh4lThV9jUQi100CRfo5clrxBiTvJ4Es3pHj8f2-Z~A3-CvmYdQokq7z7tKg1jvVlrotjMwDv1cZ1zFuhNHv0t5nQdqYtGR7tKbDZNXTPb8gwsjVljz2i6sQez~4XvDiXoRmiA1w__"
+          alt="Sunset in the mountains"
         />
       </div>
-      <!-- Image 2 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/500x400"
-          alt="Image 2"
-          class="w-full h-full object-cover"
-        />
+      <div className="col-start-3 bg-white">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <!-- <img
+            class="w-full"
+            src="/img/card-top.jpg"
+            alt="Sunset in the mountains"
+          /> -->
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
       </div>
-      <!-- Image 3 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/600x400"
-          alt="Image 3"
-          class="w-full h-full object-cover"
-        />
+      <div className="col-start-4 bg-white">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <!-- <img
+            class="w-full"
+            src="/img/card-top.jpg"
+            alt="Sunset in the mountains"
+          /> -->
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
       </div>
-      <!-- Image 4 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/300x300"
-          alt="Image 4"
-          class="w-full h-full object-cover"
-        />
+      <div className="col-start-5 bg-white">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <!-- <img
+            class="w-full"
+            src="/img/card-top.jpg"
+            alt="Sunset in the mountains"
+          /> -->
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
       </div>
-      <!-- Image 5 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/400x500"
-          alt="Image 5"
-          class="w-full h-full object-cover"
-        />
+      <div className="col-span-3 row-span-3 col-start-3 row-start-2 bg-white">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <!-- <img
+            class="w-full"
+            src="/img/card-top.jpg"
+            alt="Sunset in the mountains"
+          /> -->
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
       </div>
-      <!-- Image 6 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/450x350"
-          alt="Image 6"
-          class="w-full h-full object-cover"
-        />
+      <div className="col-span-2 row-span-2 row-start-3 bg-white">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <!-- <img
+            class="w-full"
+            src="/img/card-top.jpg"
+            alt="Sunset in the mountains"
+          /> -->
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
       </div>
-      <!-- Image 7 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/500x500"
-          alt="Image 7"
-          class="w-full h-full object-cover"
-        />
+      <div className="col-span-3 col-start-1 row-start-6 bg-white">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <!-- <img
+            class="w-full"
+            src="/img/card-top.jpg"
+            alt="Sunset in the mountains"
+          /> -->
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
       </div>
-      <!-- Image 8 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/350x450"
-          alt="Image 8"
-          class="w-full h-full object-cover"
-        />
+      <div className="col-span-2 col-start-1 row-start-5 bg-white">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+          <!-- <img
+            class="w-full"
+            src="/img/card-top.jpg"
+            alt="Sunset in the mountains"
+          /> -->
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
       </div>
-      <!-- Image 9 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/400x400"
-          alt="Image 9"
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <!-- Image 10 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/450x400"
-          alt="Image 10"
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <!-- Image 11 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/300x450"
-          alt="Image 11"
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <!-- Image 12 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/350x350"
-          alt="Image 12"
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <!-- Image 13 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/450x300"
-          alt="Image 13"
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <!-- Image 14 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/400x300"
-          alt="Image 14"
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <!-- Image 15 -->
-      <div class="relative overflow-hidden rounded-lg shadow-lg">
-        <img
-          src="https://via.placeholder.com/500x350"
-          alt="Image 15"
-          class="w-full h-full object-cover"
-        />
+      <div className="col-span-2 row-span-2 col-start-4 row-start-5 bg-white">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg max-h-20">
+          <!-- <img
+            class="w-full"
+            src="/img/card-top.jpg"
+            alt="Sunset in the mountains"
+          /> -->
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 text-white">
+              The Coldest Sunset
+            </div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Voluptatibus quia, nulla! Maiores et perferendis eaque,
+              exercitationem praesentium nihil.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -499,6 +523,160 @@ import HelloWorld from "./components/HelloWorld.vue";
       </div>
     </div>
   </section>
+  <section class="container mx-auto p-8">
+    <div class="flex justify-center items-center mt-10">
+      <h2 class="text-2xl font-bold text-teal-400">
+        Únete a las 1000+ empresas que ya confían en nosotros para solicitar sus
+        préstamos
+      </h2>
+    </div>
+  </section>
+  <!-- component -->
+  <footer class="bg-blue-100/80 font-sans dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+      <div
+        class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4"
+      >
+        <div class="sm:col-span-2">
+          <h1
+            class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white"
+          >
+            Subscribe our newsletter to get an update.
+          </h1>
+
+          <div
+            class="flex flex-col mx-auto mt-6 space-y-3 md:space-y-0 md:flex-row"
+          >
+            <input
+              id="email"
+              type="text"
+              class="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
+              placeholder="Email Address"
+            />
+
+            <button
+              class="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <p class="font-semibold text-gray-800 dark:text-white">Quick Link</p>
+
+          <div class="flex flex-col items-start mt-5 space-y-2">
+            <p
+              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"
+            >
+              Home
+            </p>
+            <p
+              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"
+            >
+              Who We Are
+            </p>
+            <p
+              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"
+            >
+              Our Philosophy
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <p class="font-semibold text-gray-800 dark:text-white">Industries</p>
+
+          <div class="flex flex-col items-start mt-5 space-y-2">
+            <p
+              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"
+            >
+              Retail & E-Commerce
+            </p>
+            <p
+              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"
+            >
+              Information Technology
+            </p>
+            <p
+              class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-blue-400 hover:underline hover:cursor-pointer hover:text-blue-500"
+            >
+              Finance & Insurance
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-6 border-gray-200 md:my-8 dark:border-gray-700 h-2" />
+
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <div class="flex flex-1 gap-4 hover:cursor-pointer">
+          <img
+            src="https://www.svgrepo.com/show/303139/google-play-badge-logo.svg"
+            width="130"
+            height="110"
+            alt=""
+          />
+          <img
+            src="https://www.svgrepo.com/show/303128/download-on-the-app-store-apple-logo.svg"
+            width="130"
+            height="110"
+            alt=""
+          />
+        </div>
+
+        <div class="flex gap-4 hover:cursor-pointer">
+          <img
+            src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg"
+            width="30"
+            height="30"
+            alt="fb"
+          />
+          <img
+            src="https://www.svgrepo.com/show/303115/twitter-3-logo.svg"
+            width="30"
+            height="30"
+            alt="tw"
+          />
+          <img
+            src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg"
+            width="30"
+            height="30"
+            alt="inst"
+          />
+          <img
+            src="https://www.svgrepo.com/show/94698/github.svg"
+            class=""
+            width="30"
+            height="30"
+            alt="gt"
+          />
+          <img
+            src="https://www.svgrepo.com/show/22037/path.svg"
+            width="30"
+            height="30"
+            alt="pn"
+          />
+          <img
+            src="https://www.svgrepo.com/show/28145/linkedin.svg"
+            width="30"
+            height="30"
+            alt="in"
+          />
+          <img
+            src="https://www.svgrepo.com/show/22048/dribbble.svg"
+            class=""
+            width="30"
+            height="30"
+            alt="db"
+          />
+        </div>
+      </div>
+      <p class="font-sans p-8 text-start md:text-center md:text-lg md:p-4">
+        © 2023 You Company Inc. All rights reserved.
+      </p>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
